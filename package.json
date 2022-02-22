@@ -1,0 +1,23 @@
+{
+  "name": "basic-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kannder83/basic-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kannder83/basic-tailwind/issues"
+  },
+  "homepage": "https://github.com/kannder83/basic-tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

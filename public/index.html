@@ -8,12 +8,32 @@
     <title>Learning Tailwind CSS</title>
   </head>
   <body>
-    <div class="w-screen h-screen flex justify-center items-center">
-      <h1
-        class="text-3xl font-bold underline border-2 border-green-100 p-4 rounded-lg bg-slate-200 hover:bg-slate-400 hover:border-red-200 transition shadow-md"
-      >
-        Hello world!
-      </h1>
-    </div>
+    <nav></nav>
+    <main class="w-full h-screen">
+      <section id="home" class="w-full h-full">
+        <article
+          class="w-full h-3/4 bg-cover bg-center flex flex-col items-center p-4 space-y-96"
+          style="
+            background-image: url('./img/jerry-zhang-Y8lCoTRgHPE-unsplash.jpeg');
+          "
+        >
+          <input
+            class="w-3/4 p-2 outline-none rounded-full shadow-md bg-white/80"
+            type="search"
+            name=""
+            id=""
+            placeholder="Mountain"
+          />
+          <button
+            class="text-xl text-slate-600 p-4 w-36 bg-white/80 rounded-full shadow-md"
+          >
+            Explorar
+          </button>
+        </article>
+      </section>
+      <section id="recomendadas"></section>
+      <section id="rentas_destacadas"></section>
+    </main>
+    <footer></footer>
   </body>
 </html>

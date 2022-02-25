@@ -7,31 +7,48 @@
     <link rel="stylesheet" href="./css/tailwind.css" />
     <title>Learning Tailwind CSS</title>
   </head>
-  <body>
+  <body class="font-Montserrat">
     <nav></nav>
     <main class="w-full h-screen">
-      <section id="home" class="w-full h-full">
+      <section id="home" class="w-full h-3/4">
         <article
-          class="w-full h-3/4 bg-cover bg-center flex flex-col items-center p-4 space-y-96"
-          style="
-            background-image: url('./img/jerry-zhang-Y8lCoTRgHPE-unsplash.jpeg');
-          "
+          class="w-full h-full bg-hero bg-cover bg-center  flex flex-col items-center p-4 space-y-96"
         >
           <input
-            class="w-3/4 p-2 outline-none rounded-full shadow-md bg-white/80"
+            class="w-3/4 p-2 outline-none rounded-full shadow-md bg-white/80 transition duration-300 focus-within:shadow-md focus:ring-2 focus:w-11/12"
             type="search"
             name=""
             id=""
             placeholder="Mountain"
           />
           <button
-            class="text-xl text-slate-600 p-4 w-36 bg-white/80 rounded-full shadow-md"
+            class="text-xl text-slate-600 p-4 w-36 bg-white/80 rounded-full shadow-md transition duration-500 ease-in-out hover:bg-slate-500 hover:text-white hover:-translate-y-1 hover:scale-110"
           >
             Explorar
           </button>
         </article>
       </section>
-      <section id="recomendadas"></section>
+      <section class="p-6" id="recomendadas">
+        <p class="text-3xl font-semibold text-gray-900">Recomendados</p>
+        <div class="w-auto h-72 flex items-center mt-6 space-x-4 overflow-x-auto overscroll-x-contain overflow-y-hidden">
+        <article class="Card">
+          <figure class="w-full h-3/5 rounded-t-lg bg-red-300 bg-mountain-01 bg-cover">
+          </figure>
+          <div class="w-full h-2/5 p-2 bg-purple-300 rounded-b-lg">
+            <p class=" text-gray-700 text-xl font-bold">Mountain with stars</p>
+            <p class="text-gray-800 text-sm">Beautiful Place</p>
+          </div>
+        </article>
+        <article class="Card">
+          <figure class="w-full h-3/5 rounded-t-lg bg-red-300 bg-mountain-02 bg-cover">
+          </figure>
+          <div class="w-full h-2/5 p-2 bg-orange-300 rounded-b-lg">
+            <p class=" text-gray-700 text-xl font-bold">Other great mountain</p>
+            <p class="text-gray-800 text-sm">Anywhere</p>
+          </div>
+        </article>
+      </div>
+      </section>
       <section id="rentas_destacadas"></section>
     </main>
     <footer></footer>

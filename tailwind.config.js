@@ -1,5 +1,6 @@
 module.exports = {
   content: ["./public/**/*.{html,js}", "./src/**/*.{html,js}"],
+  darkMode: "class",
   theme: {
     fontFamily: {
       Montserrat: ["Montserrat", "sans-serif"],
@@ -15,6 +16,9 @@ module.exports = {
           "url('/public/img/ezra-jeffrey-comeau-r4M6ZlaDLLU-unsplash.jpeg')",
         "mountain-05":
           "url('/public/img/vidar-nordli-mathisen-2cNh00feVzw-unsplash.jpeg')",
+        "mountain-06": "url('/public/img/seb-mooze-GFEmGxYqgTA-unsplash.jpeg')",
+        "mountain-07":
+          "url('/public/img/nick-night-wHrKyvqo4G4-unsplash.jpeg')",
       },
     },
   },
